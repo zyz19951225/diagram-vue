@@ -1,0 +1,54 @@
+{
+  "width": 1500,
+  "height": 1000,
+  "background": "#eee",
+  "nodes": [
+    {
+    "id": "11",
+    "content": {
+      "text": "this is text",
+      "url":"url",
+      "color": "#fab1a0"
+    },
+    "width": 250,
+    "height": 160,
+    "shape": "",
+    "point": {
+      "x": 100,
+      "y": 100
+    },
+      "key":"2"
+  },
+    {
+      "id": "22",
+      "content": {
+        "text": "Search",
+        "url":"url",
+        "color": "#fab1a0"
+      },
+      "width": 250,
+      "height": 160,
+      "shape": "",
+      "point": {
+        "x": 100,
+        "y": 400
+      },
+      "key":"2"
+    }
+      ],
+  "links": [
+    {
+      "id": 1,
+      "source" : "11",
+      "destination" : "22",
+      "point" : {
+        "x" : 100,
+        "y" : 300
+      },
+      "color": "red",
+      "pattern":"solid",
+      "arrow":"both",
+      "key": "11"
+    }
+  ]
+}
